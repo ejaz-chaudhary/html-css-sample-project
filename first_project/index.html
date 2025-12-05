@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Eatway - A 5-star luxury hotel</title>
+    <meta
+      name="description"
+      content="Hotel Eatway is a 5-star luxury hotel in Gujarat offering premium hospitality and authentic, high-quality Indian cuisine. Experience comfort, elegance, and exceptional dining in one place."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--  start of header section -->
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <h1>Hotel Eatway</h1>
+            <span class="tagline">A 5-star luxury hotel in Gujarat</span>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--  end of header section -->
+    <!--  start of main section -->
+    <main>
+      <!-- start of herso section -->
+      <section id="Home" class="hero">
+        <div class="hero-content">
+          <h2>Welcome To Hotel Eatway</h2>
+          <p>
+            luxury hotel in Gujarat offering premium hospitality and authentic,
+            high-quality Indian cuisine
+          </p>
+          <div class="hero-button">
+            <a href="#Menu" class="btn btn-primary">View Menu</a>
+            <a href="#Contact" class="btn btn-secondry">Contact</a>
+          </div>
+        </div>
+      </section>
+      <!-- end of hero section -->
+
+      <!-- start of menu section -->
+      <section id="menu" class="Menu">
+        <div class="container">
+          <h2 class="section-title">Our Menu</h2>
+          <p class="section-subtitle">Discover our preciesly made food</p>
+
+          <div class="menu-categories">
+            <div class="menu-category">
+              <h3>Appetizers</h3>
+              <div class="menu-items">
+                <div class="menu-item">
+                  <div class="menu-item-info">
+                    <h4>Lorem, ipsum dolor.</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aliquid, atque?
+                    </p>
+                  </div>
+                  <span class="price">$12</span>
+                </div>
+              </div>
+
+              <div class="menu-items">
+                <div class="menu-item">
+                  <div class="menu-item-info">
+                    <h4>Lorem, ipsum dolor.</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aliquid, atque?
+                    </p>
+                  </div>
+                  <span class="price">$12</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  end of menu section -->
+      <!--  start of about section -->
+      <section id="about" class="about">
+        <div class="container">
+          <h2 class="section-title">About Hotel Eatway</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <h3>Our story</h3>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
+                possimus dolorum doloremque officia. Facilis praesentium
+                deleniti autem voluptates vel officiis?
+              </p>
+            </div>
+            <div class="about-image">
+              <img src="images/homepage" alt="Hotel Eatway" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of about section -->
+      <!-- start of contact section -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 class="section-title">Contact Us</h2>
+          <div class="contact-content">
+            <div class="contact-info">
+              <h3>Get In Touch</h3>
+
+              <div class="contact-item">
+                <strong>Address:</strong>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+
+              <div class="contact-item">
+                <strong>Phone:</strong>
+                <p>+91 0987654321</p>
+              </div>
+
+              <div class="contact-item">
+                <strong>Email:</strong>
+                <p>info@Eatway.com</p>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h3>Make a Reservstion</h3>
+              <form action="">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" name="name" id="name" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input type="tel" name="phone" id="phone" />
+                </div>
+
+                <div class="form-group">
+                  <label for="reservation">Reservation Date</label>
+                  <input type="date" name="reservation" id="reservation" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="time">time</label>
+                  <select name="time" id="time" required>
+                    <option value="">select time</option>
+                    <option value="18:00">6:00 PM</option>
+                    <option value="19:00">7:00 PM</option>
+                    <option value="20:00">8:00 PM</option>
+                    <option value="21:00">9:00 PM</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="geust">Number of Guest</label>
+                  <select name="guest" id="guest" required>
+                    <option value="">select Number of Guest</option>
+                    <option value="1">1 Guests</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                    <option value="5">5+ Guests</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="msg">Special Request</label>
+                  <textarea name="msg" id="msg" rows="4" placeholder="Enter your message or request...."></textarea>
+                </div>
+
+                <button type="submit" class=" btn btn-primary">Submit Your Reservation</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of contact section -->
+       <!-- start of footer section -->
+        <footer class="footer">
+          <div class="container">
+            <div class="footer-content">
+
+              <div class="footer-section">
+                <h3>
+                  Hotel Eatway
+                </h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+
+              <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                  <li><a href="#Home">Home</a></li>
+                  <li><a href="#Menu">Menu</a></li>
+                  <li><a href="#About">About</a></li>
+                  <li><a href="#Contact">Contact</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-section">
+                <h4>Opening Hours</h4>
+                <p>monday-thursday: 11:00 AM - 10:00AM</p>
+                <p>friday-saturday: 11:00 AM - 10:00AM</p>
+                <p>sunday: 12:00 AM - 09:00AM</p>
+              </div>
+
+
+              <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                  <a href="#" class="social-link">facebook</a>
+                   <a href="#" class="social-link">instagram</a>
+                    <a href="#" class="social-link">twitter</a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="footer-bottom">
+                <p> &copy; 2024 Hotel Eatway. All Rights Reserved</p>
+              </div>
+          </div>
+        </footer>
+        <!-- end of footer section -->
+    </main>
+    <!-- end of main section -->
+  </body>
+</html>
